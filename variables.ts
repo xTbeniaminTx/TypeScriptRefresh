@@ -11,3 +11,15 @@ const account: IAccount = {
 };
 
 let accounts: IAccount[];
+
+class InvestmentsAccount implements IAccount {
+
+
+    constructor(public name: string,
+        public balance: number) {}
+
+
+    private withdraw() {}
+
+    
+}
